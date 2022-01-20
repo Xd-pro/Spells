@@ -1,0 +1,6 @@
+---
+name: Spells
+version: 0.0.1
+main: LemoniqPvP\Spells\Main
+api: 4.0.0
+...

@@ -9,6 +9,7 @@ use LemoniqPvP\Spells\entities\Fireball;
 use LemoniqPvP\Spells\events\Damage;
 use LemoniqPvP\Spells\items\spells\FireballSpell;
 use LemoniqPvP\Spells\items\spells\GhostSpell;
+use LemoniqPvP\Spells\items\spells\HealSpell;
 use pocketmine\data\bedrock\EntityLegacyIds;
 use pocketmine\entity\EntityDataHelper;
 use pocketmine\entity\EntityFactory;
@@ -34,6 +35,7 @@ class Main extends PluginBase{
         ItemFactory::getInstance()->register(new FireballSpell(new ItemIdentifier(ItemIds::ENCHANTED_BOOK, 0), TextFormat::GOLD . "Fireball spell" . TextFormat::RESET));
         ItemFactory::getInstance()->register(new JumpSpell(new ItemIdentifier(ItemIds::ENCHANTED_BOOK, 1), TextFormat::GREEN . "Jump spell" . TextFormat::RESET));
         ItemFactory::getInstance()->register(new GhostSpell(new ItemIdentifier(ItemIds::ENCHANTED_BOOK, 2), TextFormat::DARK_PURPLE . "Ghost spell" . TextFormat::RESET));
+        ItemFactory::getInstance()->register(new HealSpell(new ItemIdentifier(ItemIds::ENCHANTED_BOOK, 3), TextFormat::RED . "Health spell" . TextFormat::RESET));
     }
 
 }

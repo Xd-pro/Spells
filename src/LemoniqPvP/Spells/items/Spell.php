@@ -14,6 +14,11 @@ abstract class Spell extends Item {
 
     public string $description;
 
+    public function getMaxStackSize(): int
+    {
+        return 1;
+    }
+
     public function __construct(ItemIdentifier $identifier, string $name = "Unknown")
     {
         parent::__construct($identifier, $name);

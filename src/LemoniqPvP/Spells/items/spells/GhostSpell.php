@@ -10,7 +10,6 @@ use pocketmine\player\Player;
 use pocketmine\math\Vector3;
 use pocketmine\item\ItemUseResult;
 use pocketmine\scheduler\ClosureTask;
-use pocketmine\scheduler\TaskScheduler;
 
 class GhostSpell extends Spell {
 

@@ -7,7 +7,6 @@ use LemoniqPvP\Spells\items\ThrowableSpell;
 use pocketmine\entity\Location;
 use pocketmine\player\Player;
 use pocketmine\entity\projectile\Projectile;
-use pocketmine\utils\TextFormat;
 
 class FireballSpell extends ThrowableSpell {
 
